@@ -57,7 +57,10 @@ namespace labos
                 Console.WriteLine("File is empty!!");
                 return;
             }
-     static string SmallestBetween2(string first, string second)
+   
+    
+
+        static string SmallestBetween2(string first, string second)
         {
             for(int i = 0; i<first.Length; ++i)
             {
@@ -76,8 +79,5 @@ namespace labos
             return first;
            
         }
-    
-
-       }
     }
 }
